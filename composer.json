@@ -37,7 +37,7 @@
 
     "autoload": {
         "psr-4": {
-            "Rudra\\PaginatorBundle\\": ""
+            "Rudra\\PaginationBundle\\": ""
         }
     },
 
