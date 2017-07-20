@@ -1,0 +1,6 @@
+services:
+    rudra_pagination:
+        class: Rudra\PaginationBundle\Pagination\Pagination
+        arguments:
+            $value: '%rudra_pagination.per_page%'
+#            - 1 # page

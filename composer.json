@@ -1,0 +1,46 @@
+{
+    "name"        : "rudra/rudra-paginaton-bundle",
+    "description" : "Paginator bundle for Symfony2 to automate pagination and simplify sorting and other features",
+    "type"        : "symfony-bundle",
+    "keywords"    : [
+        "rudra",
+        "pagination",
+        "pager",
+        "paginator",
+        "symfony2",
+        "bundle"
+    ],
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"    : "Danila Korotkov (Jagepard)",
+            "email"   : "jagepard@yandex.ru",
+            "homepage": "https://jagepard.ru",
+            "role"    : "Developer"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.7|~3.0",
+    },
+
+    "support"     : {
+        "email": "jagepard@yandex.ru",
+        "skype": "jagepard.ru"
+    },
+
+    "require-dev": {
+        "symfony/expression-language": "~2.7|~3.0",
+        "phpunit/phpunit": "~4.8"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Rudra\\PaginatorBundle\\": ""
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
