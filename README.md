@@ -25,15 +25,15 @@ rudra_pagination:
 In Controller
 
 ```
-        $pagination = $this->get('rudra_pagination');
-        $pagination->init($id);
-        $pagination->setCount($this->getDoctrine()->getRepository(Blog::class)->numRows($conn));
-        $blogData = $this->getDoctrine()->getRepository(Blog::class)->getDataPerPage($conn, $pagination);
+$pagination = $this->get('rudra_pagination');
+$pagination->init($id);
+$pagination->setCount($this->getDoctrine()->getRepository(Blog::class)->numRows($conn));
+$blogData = $this->getDoctrine()->getRepository(Blog::class)->getDataPerPage($conn, $pagination);
 
-        return $this->render('some/blog.html.twig', [
-                ...
-                'links' => $pagination->getLinks(),
-                ...
-            ]
-        );
+return $this->render('some/blog.html.twig', [
+        ...
+        'links' => $pagination->getLinks(),
+        ...
+    ]
+);
 ```
