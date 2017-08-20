@@ -1,3 +1,5 @@
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/1815951b-a237-4eb3-ae03-89efb90f4bcb/big.png)](https://insight.sensiolabs.com/projects/1815951b-a237-4eb3-ae03-89efb90f4bcb)
+
 # RudraPaginatonBundle
 
 Add PaginatorBundle to your application kernel
