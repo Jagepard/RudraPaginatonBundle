@@ -99,7 +99,9 @@ class Pagination
      */
     public function getLinks()
     {
-        for ($i = 1; $i <= $this->getTotal(); $i++) {
+        $total = $this->getTotal();
+
+        for ($i = 1; $i <= $total; $i++) {
             $links[] = $i;
         }
 
