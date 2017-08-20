@@ -1,4 +1,4 @@
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/1815951b-a237-4eb3-ae03-89efb90f4bcb/big.png)](https://insight.sensiolabs.com/projects/1815951b-a237-4eb3-ae03-89efb90f4bcb)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/bd49d4e9-c269-4351-bb07-f8b02887ff9a/big.png)](https://insight.sensiolabs.com/projects/bd49d4e9-c269-4351-bb07-f8b02887ff9a)
 
 # RudraPaginatonBundle
 
